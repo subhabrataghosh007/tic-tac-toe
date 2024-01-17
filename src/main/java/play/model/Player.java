@@ -12,4 +12,5 @@ public abstract class Player {
     private char symbol;
     private PlayerType playerType;
 
+    public abstract Cell nextMove(Board board);
 }

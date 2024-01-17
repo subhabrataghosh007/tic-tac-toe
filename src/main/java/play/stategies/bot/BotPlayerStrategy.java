@@ -1,4 +1,8 @@
 package play.stategies.bot;
 
-public class BotPlayerStrategy {
+import play.model.Board;
+import play.model.Cell;
+
+public interface BotPlayerStrategy {
+    Cell suggestMove(Board board);
 }
